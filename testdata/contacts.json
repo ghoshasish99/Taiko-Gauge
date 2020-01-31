@@ -1,0 +1,28 @@
+{
+    "url" : "http://screenplay-contacts.herokuapp.com/",
+    "objects" :{
+        "new" : "New",
+        "update" : "Update",
+        "delete" : "Delete",
+        "create" : "Create",
+        "name" : "name",
+        "email" : "Email",
+        "mobile" : "Mobile",
+        "work" : "Work"
+    },
+    "create" : {
+        "name" : "Taiko1",
+        "email" : "Taiko@user.com",
+        "mobile" : "8989898989",
+        "workphone" : "20202020202"
+    },
+    "update" : {
+        "name" : "Taiko2",
+        "email" : "Taiko@user.com",
+        "mobile" : "8989898989",
+        "workphone" : "20202020202"
+    },
+    "delete" :{
+        "name" : "Taiko1"
+    }
+}
