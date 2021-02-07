@@ -4,11 +4,11 @@ const {openBrowser,write, closeBrowser, goto, text, textBox,click,$,into} = requ
 
 const assert = require('assert')
 
-beforeSuite(async () => {
+beforeScenario(async () => {
     await openBrowser(/*{ headless: false }*/)
 });
 
-afterSuite(async () => {
+afterScenario(async () => {
     await closeBrowser();
 });
 
