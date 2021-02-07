@@ -72,6 +72,7 @@ step("User should be able to view and add the listed product <Product>", async (
 });
 
 step("User enters Address details with <Title>,<FirstName>, <LastName>, <Line1>,<Line2>,<City>,<State>, <Zipcode>", async (title,fname,lname,addr1,addr2,city,state,zip) => {
+    await click($('#basket'))
     await click('Proceed to checkout');
     await write(title,into(textBox('Title')));
     await write(fname,into(textBox('First name')));
