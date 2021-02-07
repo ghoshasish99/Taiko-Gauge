@@ -22,3 +22,8 @@ jobs:
         node-version: 10.x
     - run: npm install
     - run: npm test
+    - name: Upload Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: TestResults
+        path: reports/
