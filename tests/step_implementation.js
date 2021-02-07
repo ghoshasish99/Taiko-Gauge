@@ -42,7 +42,7 @@ step("User create account with <FirstName>, <LastName>, <EmailID> and <Password>
 step("User account should get created", async () => {
     assert.ok(await textBox('search product').exists());
 });
-<<<<<<< HEAD
+
 
 step("User logged in eshop using the valid emailid <EmailID> and the valid password <Password>", async (email, password) => {
     let random = Math.floor(Math.random()*90000) + 10000;
@@ -95,5 +95,3 @@ step("User enters Payment details with <CardNumber>, <CardName>, <Year>,<Month>,
 step("User should get the Confirmation of Order", async () => {
     await click('Confirm');
 });
-=======
->>>>>>> b943cf024b77a05242bbaa4523e846a0c3e6729e
