@@ -5,7 +5,8 @@
   "scripts": {
     "test": "gauge run specs/"
   },
-  "dependencies": {
-    "taiko": "latest"
+  "devDependencies": {
+    "@getgauge/cli": "^1.1.7",
+    "taiko": "^1.2.0"
   }
 }
