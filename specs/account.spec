@@ -10,3 +10,8 @@
 * User account should get created
 
 
+## Login to the E-Shop Application with Wrong Password
+
+* User launched eshop login page
+* User logged in eshop using the invalid emailid <EmailID> and the invalid password <Password>
+* User should not get logged in

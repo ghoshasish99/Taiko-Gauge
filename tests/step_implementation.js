@@ -1,5 +1,5 @@
 "use strict";
-const {openBrowser,write, closeBrowser, goto, text, textBox} = require('taiko')
+const {openBrowser,write, closeBrowser, goto, text, textBox,click} = require('taiko')
 const assert = require('assert')
 
 beforeSuite(async () => {
